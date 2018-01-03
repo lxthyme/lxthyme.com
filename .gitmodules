@@ -1,0 +1,6 @@
+[submodule ".deploy_git"]
+	path = .deploy_git
+	url = https://github.com/LX314/lx314.github.io.git
+[submodule "hexo-theme-yilia"]
+	path = themes/yilia
+	url = https://github.com/litten/hexo-theme-yilia.git
