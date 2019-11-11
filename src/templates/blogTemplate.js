@@ -1,6 +1,8 @@
 import React from "react"
 import { graphql } from "gatsby"
 
+import "katex/dist/katex.min.css"
+
 export default function Template({ data }) {
   const { markdownRemark } = data
   const { frontmatter, html } = markdownRemark

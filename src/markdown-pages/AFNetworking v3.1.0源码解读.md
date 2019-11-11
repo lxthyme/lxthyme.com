@@ -10,10 +10,7 @@ title: "My first blog post"
 
 #### Get 请求流程
 
-
-
 <!--more-->
-
 
 ```flow
 st=>start: Get 请求流程

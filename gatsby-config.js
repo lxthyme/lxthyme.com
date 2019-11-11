@@ -20,6 +20,7 @@ module.exports = {
       },
     },
     "gatsby-transformer-remark",
+    "gatsby-plugin-flow",
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -46,6 +47,20 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
+          {
+            resolve: `gatsby-remark-sequence`,
+            options: {
+              // see more details on https://github.com/bramp/js-sequence-diagrams
+              'theme': 'hand',
+            }
+          },
+          {
+            resolve: `gatsby-remark-katex`,
+            options: {
+              // Add any KaTeX options from https://github.com/KaTeX/KaTeX/blob/master/docs/options.md here
+              strict: `ignore`
+            }
+          },
           {
             resolve: `gatsby-remark-prismjs`,
             options: {
