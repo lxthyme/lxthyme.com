@@ -1,2 +1,0 @@
-# lxthyme.com
-personal blog
